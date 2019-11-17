@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapped">
+        <div id="container">
+           <div class="griddy">
+               <div id="left-column" >
+                    <img src="./images/Spurlino-Family-.jpg" />
+                </div>
+              <div id="middle-column">
+                    <h1 class="gold">The YMCA</h1>
+                    <p class="gold"><i>for some reason it has rooms</i></p>
+                    <ul id="amenities" class="col-12">
+                        <li class="hide">Pool <span class="gold">|</span></li>
+                        <li class="hide">Gym <span class="gold">|</span></li>
+                        <li class="hide">Sauna</li>
+                    </ul>
+                    <form>
+
+                        <input type="text" name="firstName" id="firstName" placeholder="First Name" /> <br /><br />
+                        <input type="text" name="lastName" id="lastName" placeholder="Last Name" /><br /><br />
+                        <select id="roomType">
+                        
+                        </select><br /><br />
+                        <input type="number" name="numberOfRooms" id="numberOfRooms" placeholder="Number of Rooms" /><br /><br />
+
+                        <button type="button" class="btn btn-warning" onclick="displayValues()">Check Availability</button>
+
+                    </form> 
+                </div>
+                <div id="right-column">
+                    <img id= "imgOne" src="./images/download.png" />
+                    <img id= "imgTwo" class= "lift" src="./images/images.jpg" />
+                </div>
+            
+           </div>
+        </div>
+    </div>
+        <script src="./js/index.js"></script>
+</body>
+</html>
